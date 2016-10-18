@@ -53,7 +53,7 @@ class Alipay extends CI_Controller {
             redirect(site_url('account/recharge_list'));
             exit();
         }
-        //商户订单号，商户网站订单系统中唯一订单号
+        // 商户订单号，商户网站订单系统中唯一订单号
         $out_trade_no = $res;
         //订单名称，必填
         //$subject = 'subject';
